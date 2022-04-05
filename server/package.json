@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "crud": "node scripts/crud.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lotem Vanunu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.2.2"
+  }
+}
